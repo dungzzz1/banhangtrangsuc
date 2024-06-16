@@ -1,0 +1,142 @@
+
+
+.main{
+    text-align: center;
+    background-image:url(../img/banner-2-aunzcaus.png) ;
+    background-position: 39% 57%;
+    height: 200px;
+    color: #fff;
+    position: relative;
+}
+.main-item{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.main-lh{
+    display: flex;
+
+    justify-content: center;
+}
+.main-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-box-item{
+    height: 163px;
+    width: 378px;
+    background-color:#eeeff3;
+    border: 3px dashed#666666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.main-btn{
+    display: flex;
+    justify-content: center;
+}
+.main-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.main-err-text{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+
+.main--head{
+    text-align: center;
+    height: 90px;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    box-sizing: border-box;
+}
+
+.main--left{
+    width: 360px;
+}
+.main--seach{
+    float: left;
+}
+
+.main--post{
+    width: calc(100%-360px);
+    flex: 1;
+}
+.seachh{
+    border: 1px solid rgb(153, 149, 141);
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+}
+.btn{
+    line-height: 40px;
+    width: 40px;
+    background: #d00122;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.btn i{
+    color: #fff;
+    font-size: 20px ;
+    margin-top: 8px;
+}
+.seach
+{
+    font-size: 25px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 0 3px 3px 0;
+    background: #d00122;
+    border-radius: 5px;
+}
+.main--td
+{
+    width: 170px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.post--list li{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    float: left;
+    border-bottom: 1px solid#ccc;
+}
+
+.post--img img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    clip-path: circle();
+}
+.post--list li p{
+    margin: 3%;
+}
+.post--ngh{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}

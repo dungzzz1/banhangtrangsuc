@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./accset/css/trangchu.css">
+</head>
+<body>
+    <div class="brand">
+        <div class="product__title">THƯƠNG HIỆU</div>
+        <button onclick="plusSlides(-1)" id="btn-left" class="button__prev"><i class="fas fa-chevron-left"></i></button>
+        <button onclick="plusSlides(1)" id="btn-right" class="button__next"><i class="fas fa-chevron-right"></i></button>
+        <div class="brand-container" id="brand-slider">
+            <div class="brand__logo rieght" >
+                <img src="./accset/img/1.jpg" alt="" class="brand__img">
+                <img src="./accset/img/day-chuyen-1.jpg" alt="" class="brand__img">
+                <img src="./accset/img/earring-4.jpg" alt="" class="brand__img">
+                <img src="./accset/img/earring-4.jpg" alt="" class="brand__img">
+                
+            </div>
+            <div class="brand__logo rieght" >
+                <img src="./accset/img/earring-5.jpg" alt="" class="brand__img">
+                <img src="./accset/img/ring-1.jpg" alt="" class="brand__img">
+                <img src="./accset/img/ring-2.jpg" alt="" class="brand__img">
+                <img src="./accset/img/ring-2.jpg" alt="" class="brand__img">
+            </div>
+            <div class="brand__logo rieght" >
+                <img src="./accset/img/ring-3.jpg" alt="" class="brand__img">
+                <img src="./accset/img/ring-4.jpg" alt="" class="brand__img">
+                <img src="./accset/img/ring-5.jpg" alt="" class="brand__img">
+                <img src="./accset/img/ring-5.jpg" alt="" class="brand__img">
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("brand__logo");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+</html>

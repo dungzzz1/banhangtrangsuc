@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./accset/css/index.css">
+    <link rel="stylesheet" href="./accset/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <form class="from-logins">
+            <h1>Đăng Kí</h1>
+            <div class="from-nexts">
+                <input type="text" placeholder="Tài Khoản">
+            </div>
+            <div class="from-nexts">
+                <input type="password" placeholder=" Mật Khẩu">
+            </div>
+            <div class="from-nexts">
+                <input type="password" placeholder="Nhập Lại Mật Khẩu">
+            </div>
+            <input type="checkbox"> bạn có đồng ý điều khoản của cửa hàng 
+            <button>Đăng Kí</button>
+            <div class="pk">
+                <a href="">Quên Mật Khẩu</a>
+            </div>
+            
+        </form>
+    </div>
+    <script>
+        const formlogin = document.querySelectorAll('.from-next input')
+        const formlabel = document.querySelectorAll('.from-next label')
+        for(let i =0;i<2;i++){
+            formlogin[i].addEventListener("mouseover",function(){
+                formlabel[i].classList.add("focus")
+            })
+        }
+    </script>
+</body>
+</html>

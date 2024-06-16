@@ -1,0 +1,15 @@
+NGUYEN VAN A
+9704 0000 0000 0018
+03/07
+
+partnerCode=MOMOBKUN20180529
+&orderId=1684087515
+&requestId=1684087515
+&amount=1500000
+&orderInfo=Thanh+to%C3%A1n+qua+MoMo
+&orderType=momo_wallet&transId=2979247537
+&resultCode=0
+&message=Successful.
+&payType=napas&responseTime=1684087563516
+&extraData=
+&signature=4c313978bbe9c452ba799f10d2142e45a6f62e2eaf64a585847c22dd0fef1329

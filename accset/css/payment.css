@@ -1,0 +1,129 @@
+.payment__Cart {
+    margin: 6% 124px;
+}
+
+
+.payment__Infor{
+    border-top: 1px solid #ccc;
+}
+
+
+
+.input-text{
+    margin-top: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 2.507em;
+    font-size: 15px;
+    outline: none;
+    border-radius: 4px;
+}
+
+input[type = 'text']:focus {
+    outline: 0;
+    box-shadow: 0 0 5px #ccc;
+    opacity: 1 !important;
+}
+
+input[type = 'text']:hover {
+    outline: 0;
+    opacity: 1 !important;
+}
+
+textarea:focus {
+    outline: 0;
+    box-shadow: 0 0 5px #ccc;
+    opacity: 1 !important;
+}
+textarea:hover {
+    outline: 0;
+    box-shadow: 0 0 5px #ccc;
+    opacity: 1 !important;
+}
+
+.infor_header {
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.Order__infor{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.mg-left{
+    text-align: left;
+    width: 83%;
+}
+
+
+
+.border_with {
+    border: 2px solid #d26e4b;
+    width: 86%;
+    padding: 15px 30px 30px;
+}
+
+.header__order tr th {
+    border-bottom: 1px solid #ececec;
+    border-width: 3px;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+    line-height: 1.05;
+    letter-spacing: .05em;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+tr th,
+tr td{
+    font-size: 13px;
+    color: #333;
+    padding-top: 15px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+}
+tr span {
+    font-size: 14px;
+}
+.payment__review ul li{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+input[type = 'radio'] {
+    margin-right: 10px;
+}
+
+.payment__box{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.btn__payment {
+    margin-top: 24px;
+}
+
+.btn__payment button {
+    padding: 12px 20px;
+    text-transform: uppercase;
+    background: #d26e4b;
+    border: 1px solid #d26e4b;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn__payment button:hover {
+    outline: none;
+    opacity: 1;
+    color: #fff;
+    box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+
+}
